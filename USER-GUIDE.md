@@ -54,21 +54,43 @@ way for that one row.
 ## Applying colours
 
 Colour changes apply to every item currently in the list. Finder Colours uses
-the modern Finder tag metadata exposed by Foundation:
+the modern Finder tag metadata exposed by Foundation.
 
-| Finder number | Displayed colour |
-|---:|---|
-| 0 | None |
-| 1 | Grey |
-| 2 | Green |
-| 3 | Purple |
-| 4 | Blue |
-| 5 | Yellow |
-| 6 | Red |
-| 7 | Orange |
+### Modern tags versus legacy labels
 
-These numbers differ from the older AppleScript `label index` ordering. Finder
-Colours and its current shell script use the modern mapping throughout.
+macOS has two related numeric colour orders. Modern Finder tag metadata and the
+older AppleScript `label index` do not assign the same number to most colours:
+
+| Colour | Modern Finder tag number | Legacy AppleScript `label index` |
+|---|---:|---:|
+| None | 0 | 0 |
+| Grey | 1 | 7 |
+| Green | 2 | 6 |
+| Purple | 3 | 5 |
+| Blue | 4 | 4 |
+| Yellow | 5 | 3 |
+| Red | 6 | 2 |
+| Orange | 7 | 1 |
+
+Finder Colours and its current shell script use the modern mapping. A legacy
+script can therefore report Grey as `7`, while a modern metadata reader reports
+Orange as `7`; the number has meaning only when its metadata system is known.
+
+### Coloured dot versus coloured folder
+
+The legacy AppleScript action changes Finder's single compatibility label. On
+current macOS versions that can appear as a coloured dot beside the item while
+leaving a folder's normal blue icon unchanged. It does not necessarily create
+the modern named-tag metadata Finder now uses.
+
+Applying a colour from Finder's tag menu writes the modern named tag. On macOS
+versions and view settings that colour tagged folders, Finder can then tint the
+folder icon as well as show its tag indicator. Removing and reapplying a colour
+in Finder appears to “fix” a dot-only folder because Finder rewrites it through
+the modern tag path.
+
+Finder Colours uses that modern path directly, so its result matches the
+current Finder tag action rather than the older dot-only compatibility action.
 
 ### Existing tags are replaced
 
@@ -139,7 +161,9 @@ problem is the filesystem or permissions rather than Finder Colours.
 
 Press Command-R to refresh the list. Older scripts that read Finder's legacy
 AppleScript `label index` may report a different number because that interface
-uses a different ordering. Use the current `finder-labels.sh` included here.
+uses a different ordering. See [Modern tags versus legacy labels](#modern-tags-versus-legacy-labels)
+for the complete comparison, and use the current `finder-labels.sh` included
+here.
 
 ### A custom tag disappeared
 

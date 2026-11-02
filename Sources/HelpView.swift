@@ -97,6 +97,13 @@ struct HelpView: View {
                 Text("The app presents the Canadian spelling **Grey** while using Finder's standard internal tag name.")
             }
 
+            HelpSection(title: "Why older scripts can look different", icon: "circle.lefthalf.filled") {
+                Text("Modern Finder tag numbers run **Grey 1, Green 2, Purple 3, Blue 4, Yellow 5, Red 6, Orange 7**. The legacy AppleScript `label index` runs in the opposite colour order: **Orange 1 through Grey 7**, with Blue still 4.")
+                Text("A legacy label action can leave only a coloured dot while the folder stays blue. Removing and reapplying the colour in Finder writes the modern named tag, which can also tint the folder icon. Finder Colours uses this modern path directly.")
+                Link("See the full comparison", destination: FinderColoursSupportLinks.legacyColourGuide)
+                    .font(.callout)
+            }
+
             HelpSection(title: "One standard colour at a time", icon: "exclamationmark.triangle") {
                 Text("Applying a colour replaces the item's existing Finder tag list with that one standard colour tag. Choosing **None** removes all Finder tags from the item.")
                 Text("If you use several custom or keyword tags on the same item, manage those tags in Finder instead.")

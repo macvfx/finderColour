@@ -32,6 +32,18 @@ one standard colour at a time:
 
 Use Finder itself when an item must retain several custom or keyword tags.
 
+## Modern tags and legacy labels
+
+Finder's modern tag numbers and its older AppleScript `label index` use
+different colour orders. Legacy label actions can produce a coloured dot while
+leaving a folder's blue icon unchanged; Finder's modern named-tag action can
+also tint the folder icon on supported macOS versions. Removing and reapplying
+a colour in Finder rewrites it through that modern path.
+
+Finder Colours and the included shell script use the modern tag system. See
+[Modern tags versus legacy labels](USER-GUIDE.md#modern-tags-versus-legacy-labels)
+for the complete side-by-side number table and behaviour explanation.
+
 ## Privacy
 
 Tag reads and changes happen locally through macOS Foundation file metadata

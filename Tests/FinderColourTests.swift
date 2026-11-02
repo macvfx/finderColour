@@ -46,5 +46,9 @@ final class FinderColourTests: XCTestCase {
             FinderColoursSupportLinks.userGuide.absoluteString,
             "https://github.com/macvfx/finderColour/blob/main/USER-GUIDE.md"
         )
+        XCTAssertEqual(
+            FinderColoursSupportLinks.legacyColourGuide.fragment,
+            "modern-tags-versus-legacy-labels"
+        )
     }
 }

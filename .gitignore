@@ -1,0 +1,20 @@
+Build/
+ReleaseBuild/
+DerivedData/
+Finder Colours.app/
+*.app
+*.dSYM
+*.xcarchive
+*.dmg
+*.pkg
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.local.xcconfig
+Secrets.xcconfig
+*.xcuserstate
+xcuserdata/
+.DS_Store
+.env
+.env.*

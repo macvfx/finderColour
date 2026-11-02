@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0145509CC86CB46B7A4AC40A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4652FB45B0FB4A582B6065 /* AboutView.swift */; };
+		1B59FDD42CFF3564FC6BB847 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D65E9A79B2454887A28D43 /* HelpView.swift */; };
+		1B9F383DFD45AE4CCF05A6E2 /* FinderColoursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D27FC79DAF118F17C693C /* FinderColoursApp.swift */; };
+		2E548696D3727706D92A5FDB /* FinderMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B355AD70580998FAFF35CD4C /* FinderMetadata.swift */; };
+		8470FE2CB08B91ED80AFA37F /* FinderColoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5826BB98BFA0A838472B145E /* FinderColoursViewModel.swift */; };
+		9D1C859DF6D9F3B64822407F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812A8BBDF88F28AFBD9C9B8 /* Assets.xcassets */; };
+		A2DF43521A1A36975C585FD3 /* FinderColourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD288F85AC6AB644AB0FAD /* FinderColourTests.swift */; };
+		AB2B5F42DE1E990C6C905B52 /* FinderColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478B892084F27E60112810 /* FinderColour.swift */; };
+		CECC3388CD2179D06EAE2EEA /* FinderColoursSupportLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44C84FA794297C1290D359 /* FinderColoursSupportLinks.swift */; };
+		D986312348C55CFE06A7C2A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFC42DD513BE9649D5048E /* ContentView.swift */; };
+		EFC84E190C2C9B80F9AFAB07 /* DroppedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA31E62EB1560699DECFC1E /* DroppedItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5610275D563BA17F9B18CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0D5EB184E777B6381F40DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619850DEDDB3DD640E06DAD2;
+			remoteInfo = FinderColours;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2812A8BBDF88F28AFBD9C9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28AD288F85AC6AB644AB0FAD /* FinderColourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderColourTests.swift; sourceTree = "<group>"; };
+		2AA31E62EB1560699DECFC1E /* DroppedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppedItem.swift; sourceTree = "<group>"; };
+		3353B16B57A96BE47B9CE1CC /* FinderColoursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderColoursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB867CA951EA3E555D3896E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5826BB98BFA0A838472B145E /* FinderColoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderColoursViewModel.swift; sourceTree = "<group>"; };
+		5A4D27FC79DAF118F17C693C /* FinderColoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderColoursApp.swift; sourceTree = "<group>"; };
+		AB4652FB45B0FB4A582B6065 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B1478B892084F27E60112810 /* FinderColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderColour.swift; sourceTree = "<group>"; };
+		B1D65E9A79B2454887A28D43 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		B355AD70580998FAFF35CD4C /* FinderMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderMetadata.swift; sourceTree = "<group>"; };
+		CDEB83F97CB0A50FCB81E96A /* FinderColours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderColours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE44C84FA794297C1290D359 /* FinderColoursSupportLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderColoursSupportLinks.swift; sourceTree = "<group>"; };
+		EDBFC42DD513BE9649D5048E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7B1D8B463FC7E66922C957E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB83F97CB0A50FCB81E96A /* FinderColours.app */,
+				3353B16B57A96BE47B9CE1CC /* FinderColoursTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C5CFD527658C49348D7549 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AB4652FB45B0FB4A582B6065 /* AboutView.swift */,
+				2812A8BBDF88F28AFBD9C9B8 /* Assets.xcassets */,
+				EDBFC42DD513BE9649D5048E /* ContentView.swift */,
+				2AA31E62EB1560699DECFC1E /* DroppedItem.swift */,
+				B1478B892084F27E60112810 /* FinderColour.swift */,
+				5A4D27FC79DAF118F17C693C /* FinderColoursApp.swift */,
+				CE44C84FA794297C1290D359 /* FinderColoursSupportLinks.swift */,
+				5826BB98BFA0A838472B145E /* FinderColoursViewModel.swift */,
+				B355AD70580998FAFF35CD4C /* FinderMetadata.swift */,
+				B1D65E9A79B2454887A28D43 /* HelpView.swift */,
+				3BB867CA951EA3E555D3896E /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BD309EE72FDF7FDDC78ACB5E = {
+			isa = PBXGroup;
+			children = (
+				A9C5CFD527658C49348D7549 /* Sources */,
+				F55CFD8D56B8E44C5C99A94C /* Tests */,
+				7B1D8B463FC7E66922C957E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55CFD8D56B8E44C5C99A94C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28AD288F85AC6AB644AB0FAD /* FinderColourTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619850DEDDB3DD640E06DAD2 /* FinderColours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783489DF4EDEF03EEB7FEC82 /* Build configuration list for PBXNativeTarget "FinderColours" */;
+			buildPhases = (
+				5DB6EE6C7CF83464CD4C545D /* Sources */,
+				DDC323D294C73F6C99170062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderColours;
+			packageProductDependencies = (
+			);
+			productName = FinderColours;
+			productReference = CDEB83F97CB0A50FCB81E96A /* FinderColours.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5A7D2083F545D9CE6C72CB /* FinderColoursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778EB891ADAE0BC001365BB2 /* Build configuration list for PBXNativeTarget "FinderColoursTests" */;
+			buildPhases = (
+				8B1409F0DDC59E39061566D3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03395E1E2AE69E773CC8B094 /* PBXTargetDependency */,
+			);
+			name = FinderColoursTests;
+			packageProductDependencies = (
+			);
+			productName = FinderColoursTests;
+			productReference = 3353B16B57A96BE47B9CE1CC /* FinderColoursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0D5EB184E777B6381F40DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					619850DEDDB3DD640E06DAD2 = {
+						ProvisioningStyle = Automatic;
+					};
+					BA5A7D2083F545D9CE6C72CB = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB0C4D8277CF5B9CF40A6F3E /* Build configuration list for PBXProject "FinderColours" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BD309EE72FDF7FDDC78ACB5E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7B1D8B463FC7E66922C957E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619850DEDDB3DD640E06DAD2 /* FinderColours */,
+				BA5A7D2083F545D9CE6C72CB /* FinderColoursTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC323D294C73F6C99170062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1C859DF6D9F3B64822407F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB6EE6C7CF83464CD4C545D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0145509CC86CB46B7A4AC40A /* AboutView.swift in Sources */,
+				D986312348C55CFE06A7C2A0 /* ContentView.swift in Sources */,
+				EFC84E190C2C9B80F9AFAB07 /* DroppedItem.swift in Sources */,
+				AB2B5F42DE1E990C6C905B52 /* FinderColour.swift in Sources */,
+				1B9F383DFD45AE4CCF05A6E2 /* FinderColoursApp.swift in Sources */,
+				CECC3388CD2179D06EAE2EEA /* FinderColoursSupportLinks.swift in Sources */,
+				8470FE2CB08B91ED80AFA37F /* FinderColoursViewModel.swift in Sources */,
+				2E548696D3727706D92A5FDB /* FinderMetadata.swift in Sources */,
+				1B59FDD42CFF3564FC6BB847 /* HelpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1409F0DDC59E39061566D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DF43521A1A36975C585FD3 /* FinderColourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03395E1E2AE69E773CC8B094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 619850DEDDB3DD640E06DAD2 /* FinderColours */;
+			targetProxy = 9B5610275D563BA17F9B18CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		406083279BE3BDE5731DE890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.macvfx.FinderColours;
+				PRODUCT_MODULE_NAME = FinderColours;
+				PRODUCT_NAME = "Finder Colours";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E75021CAC14BCA8ABF43366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.macvfx.FinderColoursTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder Colours.app/Contents/MacOS/Finder Colours";
+			};
+			name = Release;
+		};
+		8335BB88FA4B484C833618CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A5922AAB798DEAC3044E74AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.macvfx.FinderColours;
+				PRODUCT_MODULE_NAME = FinderColours;
+				PRODUCT_NAME = "Finder Colours";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C38853DCBFA48CCCD74549D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.macvfx.FinderColoursTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder Colours.app/Contents/MacOS/Finder Colours";
+			};
+			name = Debug;
+		};
+		F1E75F58D65A9F730447FD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778EB891ADAE0BC001365BB2 /* Build configuration list for PBXNativeTarget "FinderColoursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38853DCBFA48CCCD74549D1 /* Debug */,
+				6E75021CAC14BCA8ABF43366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		783489DF4EDEF03EEB7FEC82 /* Build configuration list for PBXNativeTarget "FinderColours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406083279BE3BDE5731DE890 /* Debug */,
+				A5922AAB798DEAC3044E74AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB0C4D8277CF5B9CF40A6F3E /* Build configuration list for PBXProject "FinderColours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8335BB88FA4B484C833618CB /* Debug */,
+				F1E75F58D65A9F730447FD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0D5EB184E777B6381F40DA /* Project object */;
+}

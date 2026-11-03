@@ -109,3 +109,7 @@ paths.
 - [User Guide](USER-GUIDE.md)
 - [code.matx.ca](https://code.matx.ca)
 - [Source repository](https://github.com/macvfx/finderColour)
+
+## License
+
+Finder Colours is available under the [MIT License](LICENSE).

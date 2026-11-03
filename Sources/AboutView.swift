@@ -57,6 +57,10 @@ struct AboutView: View {
 
             Link("code.matx.ca", destination: FinderColoursSupportLinks.website)
                 .font(.caption)
+
+            Text("Copyright © 2026 Mat X")
+                .font(.caption2)
+                .foregroundStyle(.tertiary)
         }
         .padding(26)
     }
